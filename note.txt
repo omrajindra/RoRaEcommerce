@@ -9,3 +9,5 @@ shared
 choose cloud provider or choose default
 mongodb app download
 7. npm i mongoose morgan
+8. Model user were created
+9. npm i bcrypt for password hash install
