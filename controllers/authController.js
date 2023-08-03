@@ -37,7 +37,7 @@ export const registerController = async (req, res) => {
       email,
       phone,
       address,
-      passsword: "hashedPassword",
+      passsword: hashedPassword,
     }).save();
 
     res.status(201).send({
